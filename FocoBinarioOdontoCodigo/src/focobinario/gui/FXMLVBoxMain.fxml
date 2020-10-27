@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="436.0" prefWidth="728.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="focobinario.controllers.FXMLVBoxMainController">
+   <children>
+      <MenuBar prefHeight="27.0" prefWidth="728.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Cadastros">
+            <items>
+                  <MenuItem fx:id="menuItemCadastrosOdonto" mnemonicParsing="false" onAction="#handleMenuItemCadastrosOdonto" text="Cadastro de Odonto" />
+                  <MenuItem fx:id="menuItemCadastrosPaciente" mnemonicParsing="false" onAction="#handleMenuItemCadastrosPaciente" text="Cadastro de Paciente" />
+                  <MenuItem fx:id="menuItemCadastrosUsuario" mnemonicParsing="false" onAction="#handleMenuItemCadastrosUsuario" text="Cadastro de Usuario" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Agendamento" />
+          <Menu mnemonicParsing="false" text="Sair" />
+        </menus>
+      </MenuBar>
+      <AnchorPane fx:id="anchorPane" prefHeight="410.0" prefWidth="728.0" />
+   </children>
+</VBox>

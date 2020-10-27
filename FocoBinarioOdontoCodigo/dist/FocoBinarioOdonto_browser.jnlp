@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="FocoBinarioOdonto_browser.jnlp">
+  <information>
+    <title>FocoBinarioOdonto</title>
+    <vendor>Rafael</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="FocoBinarioOdonto.jar" size="39959" download="eager" />
+    <jar href="lib\postgresql-42.2.8.jar" size="885112" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="focobinario.PaginaInicial"  name="FocoBinarioOdonto" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
